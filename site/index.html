@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulàrios y metadatos</title>
+	<meta charset="utf-8"> <!--metadatos, para poder poner acentos-->
+	<meta name="keywords" content="harina,leche,huevo,galleta">
+	<!--palabras clave-->
+	<meta name="description" content="Pagina web de alimentos desde 2001"> <!--descripcion-->
+	<meta name="author" content="Paul Caceres"> <!--autor-->
+	<meta name="robots" content="index"> <!--index, es indexable...con noindex, no es indexable--> 
+
+</head>
+<body>
+	<form> <!--formularios, podemos usar method="post"-->	
+		<!--name es para backend-->	
+		<input type="text" required=""> <!--para texto, con required, obligamos al usuario a llenar ese campo-->	
+		<input type="password">  <!--para contraseñas-->	
+		<input type="number"> <!--solo numeros-->	
+		<input type="email"> <!--para gmails-->
+		<input type="color"> <!--para colores-->
+		<input type="range" min="10" max="100"> <!--para rangos entre lo especificado-->
+		<input type="date"> <!--para fechas-->
+		<input type="time"> <!--para horas-->
+		<input type="button" value="Nombre Boton">	<!--para botones-->
+		<input type="submit"> <!--para enviar los datos-->
+	</form>
+</body>
+</html>
